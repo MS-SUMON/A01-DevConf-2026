@@ -81,16 +81,17 @@
 
 
 .speakers{
+    
+   max-width: 1300px;
     margin: auto;
-   
-    margin-top: 60px;
 }
 
 .speakers h1{
     font-weight: bolder;
     font-size: 60px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     text-align: center;
+    margin-top: 60px;
 }
 
 
@@ -101,7 +102,25 @@
 }
 
 .speaker-card{
-    border-radius: 12px 12px;
+    border: 1px solid #b0b0b0;
+    border-radius: 12px ;
     overflow: hidden;
 
 }
+
+.speakers-container .speaker-info{
+    padding: 20px;
+}
+
+.speaker-info h5{
+color: blue;
+}
+
+.speaker-info h3{
+    margin: 10px 0;
+}
+
+.speaker-info p{
+    color: gray;
+}
+
