@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    
+}
+
+/* Common Container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+}
+
+/* Common Button */
+.common-btn{
+    background-color: #1D4ED8;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    
+}
+.common-btn:hover{
+    background-color: #384147;
+}
+
+/* Navigation iteams css */
+.nav-iteams ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    
+
+}
+
+.nav-iteams a {
+    text-decoration: none;
+}
+
+.nav-logo img{
+    height: 35px;
+}
+
+
+/* Hero section css */
+.hero-section{
+    background-image:
+    linear-gradient(rgba(0,0,0,0.5)),
+    url("../assets/banner.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #ffffff;
+    text-align: center;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.hero-content h1{
+    font-size: 70px;
+     font-family: "Inter", sans-serif;
+}
+
+.hero-content p{
+    width: 700px;
+    margin: 10px 0px 10px 0px;
+     font-family: "Inter", sans-serif;
+}
+
+
+/* Speaker  section css */
+
+
+.speakers{
+    margin: auto;
+   
+    margin-top: 60px;
+}
+
+.speakers h1{
+    font-weight: bolder;
+    font-size: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.speakers-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+}
+
+.speaker-card{
+    border-radius: 12px 12px;
+    overflow: hidden;
+
+}
