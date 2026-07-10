@@ -1,10 +1,11 @@
-* {
+*{
     margin: 0;
-    
+    font-family: "Inter", sans-serif;
+
 }
 
 /* Common Container */
-.container {
+.container{
     display: flex;
     justify-content: space-between;
     padding: 20px 50px;
@@ -19,22 +20,21 @@
     border-radius: 10px;
     cursor: pointer;
     border: none;
-    
+
 }
+
 .common-btn:hover{
     background-color: #384147;
 }
 
 /* Navigation iteams css */
-.nav-iteams ul {
+.nav-iteams ul{
     display: flex;
     gap: 10px;
     list-style: none;
-    
-
 }
 
-.nav-iteams a {
+.nav-iteams a{
     text-decoration: none;
 }
 
@@ -46,13 +46,13 @@
 /* Hero section css */
 .hero-section{
     background-image:
-    linear-gradient(rgba(0,0,0,0.5)),
-    url("../assets/banner.jpg");
+        linear-gradient(rgba(0, 0, 0, 0.5)),
+        url("../assets/banner.jpg");
     background-size: cover;
     height: 100vh;
     display: flex;
     justify-content: center;
-    
+
 }
 
 .hero-content{
@@ -67,13 +67,13 @@
 
 .hero-content h1{
     font-size: 70px;
-     font-family: "Inter", sans-serif;
+    
 }
 
 .hero-content p{
     width: 700px;
     margin: 10px 0px 10px 0px;
-     font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 
@@ -81,8 +81,8 @@
 
 
 .speakers{
-    
-   max-width: 1300px;
+
+    max-width: 1300px;
     margin: auto;
 }
 
@@ -97,13 +97,13 @@
 
 .speakers-container{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 25px;
 }
 
 .speaker-card{
     border: 1px solid #b0b0b0;
-    border-radius: 12px ;
+    border-radius: 12px;
     overflow: hidden;
 
 }
@@ -113,7 +113,7 @@
 }
 
 .speaker-info h5{
-color: blue;
+    color: blue;
 }
 
 .speaker-info h3{
@@ -124,3 +124,111 @@ color: blue;
     color: gray;
 }
 
+
+/* Pricing card css */
+
+.pricing-card-container{
+    max-width: 1300px;
+    margin: auto;
+    
+    margin-top: 80px;
+    padding: 25px;
+}
+
+.card-title h1{
+    text-align: center;
+}
+
+.card-title p{
+    text-align: center;
+    margin: 10px 0;
+}
+
+.pricing-card-parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.pricing-card{
+    padding: 30px;
+    border: 1px solid rgb(228, 227, 227);
+    border-radius: 15px;
+    background: white;
+}
+
+.pricing-card p{
+    color: #333333;
+}
+
+.pricing-card h2{
+    margin: 10px 0;
+}
+
+hr{
+    margin: 10px 0;
+}
+
+.pricing-card .standard-btn{
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: white;
+    color: royalblue;
+    border: 1px solid royalblue;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+.pricing-card .pro-btn{
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.pricing-card .contact-btn{
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: white;
+    color: #0D1B2A;
+    border: 1px solid #0D1B2A;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+.pricing-card ul{
+    padding-left: 20px;
+}
+
+.pricing-card li{
+    margin: 10px 0;
+}
+
+.pro-card{
+    background-color: #0d1b2a;
+    color: white;
+}
+
+.pro-card .pro-title{
+    color: #4f97e5;
+}
+
+.pro-card .pro-driscription{
+    color: gray;
+}
+
+.contact-card{
+    background-color: #F8F9FB;
+}
